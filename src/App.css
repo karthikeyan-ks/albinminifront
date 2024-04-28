@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  width: 100%;
+  height: 100%;
+}
+#root{
+  width: 100%;
+  height: 100%;
 }
 
 .App-logo {
@@ -12,16 +18,25 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.MuiGrid-root::-webkit-scrollbar {
+  width: 5px; /* Adjust width for desired thickness */
+  height: 8px; /* Adjust height if needed */
+}
+
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.mainPage{
+  width: 100%;
+  height: 100%;
 }
 
 .App-link {
